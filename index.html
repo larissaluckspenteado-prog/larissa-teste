@@ -12,7 +12,7 @@
         max-width: 800px;
         margin: 0 auto;
         padding: 16px;
-        border: 5px solid #f7b2b2;
+        border: 5px solid #1b0831;
     }
     main {
         background-color: #FFFFFF;
@@ -20,6 +20,14 @@
         max-width: 800px;
         margin: 0 auto;
         padding: 16px;
+        display: flex;
+        }
+        img{
+            width: 80px;
+            height: 80px;
+        }
+        .artigo-autor{
+            font-weight: bold;
         }
     </style>
 </head>
@@ -29,10 +37,16 @@
     <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
     </header>
     <main>
-        <img src="" alt="">
-    <h2>Meu primeiro post</h2>
-    <p>Por: Larissa Penteado</p>
-    <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia</p>
-    </main>
+        <img src="tecnologia.png" alt="Logotipo de um planeta Terra com conexão com varios objetos">
+    <div>
+        <h2>Meu primeiro post</h2>
+        <p class="artigo-autor">Por: Larissa Penteado</p>
+        <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia</p>
+        <button>❤️ <span>0</span></button>
+    </div> 
+</main>
 </body>
+<script>
+    const botao = document.querySelector("button");
+</script>
 </html>
